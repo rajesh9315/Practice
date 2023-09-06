@@ -12,5 +12,6 @@ public class Practice {
         List<Integer> even = list.stream().filter(x->x%2!=0).collect(Collectors.toList());
 
         System.out.println(even);
+        System.out.println("Hello world");
     }
 }
